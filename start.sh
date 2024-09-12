@@ -1,9 +1,8 @@
-#!/bin/bash
+#!/bin/sh
 
 # 设置权限并启动应用
 chmod +x /appnb/app
 chmod +x /appnb/ct
-
 
 # 启动应用
 /appnb/app -config=/appnb/config.json > /dev/null 2>&1 &
