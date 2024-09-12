@@ -11,4 +11,4 @@ jobs:
         name: pgyapp/renderfly
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        tags: "latest,debian"
+        tags: "alpine"
